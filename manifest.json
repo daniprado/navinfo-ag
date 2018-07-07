@@ -1,0 +1,40 @@
+{
+
+  "manifest_version": 2,
+  "name": "navinfo-ag",
+  "version": "0.1",
+ 
+  "description": "Sample webextension to record several information about HTTP traffic from a browser",
+  "homepage_url": "https://github.com/dpradom/navinfo-ag",
+
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "storage"
+  ],
+
+  "icons": {
+    "48": "icons/navinfo-48.png",
+    "96": "icons/navinfo-96.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/navinfo-32.png",
+    "default_title": "NavInfo-ag"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "options_ui": {
+    "page": "options/options.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "50.0"
+    }
+  }
+
+}
