@@ -8,9 +8,6 @@
   "homepage_url": "https://github.com/dpradom/navinfo-ag",
 
   "permissions": [
-    "<all_urls>",
-    "webRequest",
-    "storage"
   ],
 
   "icons": {
